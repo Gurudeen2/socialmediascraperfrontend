@@ -17,8 +17,8 @@ const Scraper = () => {
       <div>
         <HorizontalExample onSubmit={onSubmitHandler} />
       </div>
-      <Row>
-        <Col md="12" lg="12" sm="12" className="mb-4" responsive="true">
+      <Row className="mt-5">
+        <Col md="12" lg="12" sm="12" className="mb-4">
           <ScraperTable />
         </Col>
       </Row>
